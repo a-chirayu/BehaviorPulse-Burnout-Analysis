@@ -1,0 +1,14 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# System
+.DS_Store
+Thumbs.db
+
+# Power BI autosaves
+*.pbix.tmp
