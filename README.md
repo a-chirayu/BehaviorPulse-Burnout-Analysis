@@ -27,35 +27,43 @@ This project analyzes daily activity data to:
 
 ---
 
-## 📂 Project Structure
 
-BehaviorPulse-Burnout-Analysis/
-│
-├── data/
-│   ├── cleaned_activity_data.csv
-│   └── daily_activity_log.xlsx
-│
-├── notebooks/
-│   ├── 01_data_ingestion_mysql.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_eda_analysis.ipynb
-│   └── behavior_pulse.ipynb
-│
-├── sql/
-│   ├── behavior_pulse.sql
-│   └── views.sql
-│
-├── powerbi/
-│   └── BehaviorPulse_Burnout_Analysis.pbix
-│
-├── docs/
-│   ├── BehaviorPulse_Burnout_Analysis.pdf
-│   ├── dashboard_img_1.jpeg
-│   └── dashboard_img_2.jpeg
-│
-└── .gitignore
+📂 Project Structure
 
----
+This project is organized into the following main folders:
+
+data/
+
+Contains the raw and cleaned datasets used for analysis.
+cleaned_activity_data.csv – Final cleaned dataset
+daily_activity_log.xlsx – Original activity log
+
+notebooks/
+
+Jupyter notebooks used for different stages of analysis.
+Data ingestion and MySQL integration
+Feature engineering
+Exploratory data analysis (EDA)
+Final consolidated notebook
+
+sql/
+
+SQL scripts used for database setup and analysis.
+Table creation and data import scripts
+SQL views for daily, activity-wise, and weekly burnout metrics
+
+powerbi/
+
+Contains the Power BI dashboard file used for visualization.
+
+docs/
+
+Includes exported dashboard PDF and screenshots for quick preview.
+
+.gitignore
+
+Ensures unnecessary system and cache files are not tracked.
+
 
 ## 📊 Dashboard Pages
 
