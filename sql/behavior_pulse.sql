@@ -1,5 +1,4 @@
-DROP DATABASE IF EXISTS behaviorpulse;
-CREATE DATABASE behaviorpulse;
+CREATE DATABASE IF NOT EXISTS behaviorpulse;
 USE behaviorpulse;
 SELECT DATABASE();
 
@@ -8,7 +7,7 @@ CREATE TABLE users (
     name VARCHAR(100)
 );
 
-CREATE TABLE activities (
+CREATE TABLE IF NOT EXISTS activities (
     record_id INT,
     user_id INT,
     activity_date VARCHAR(20),   -- DATE later, STRING now
