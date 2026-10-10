@@ -17,7 +17,7 @@ SELECT
         WHEN 'fri' THEN 5
         WHEN 'sat' THEN 6
         WHEN 'sun' THEN 7
-    END AS day_order,
+    END AS daily_day_order,
 
     COUNT(*) AS total_activities,
 
@@ -101,7 +101,7 @@ SELECT
         WHEN 'fri' THEN 5
         WHEN 'sat' THEN 6
         WHEN 'sun' THEN 7
-    END AS day_order,
+    END AS weekly_day_order,
 
     COUNT(*) AS total_activities,
 
